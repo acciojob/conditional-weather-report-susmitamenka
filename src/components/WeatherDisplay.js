@@ -8,7 +8,7 @@ const WeatherDisplay=({weather})=>{
         <div>
        <p>
         
-        <span style={{color:tempColor}}>{temperature}</span>
+        <span style={{color:tempColor}}>Temperature:{temperature}°C</span>
        </p>
        <p>{conditions}</p>
         </div>
