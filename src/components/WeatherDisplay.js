@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const WeatherDisplay=({weather})=>{
-    const{temperature,conditions}=weather;
+    const{temperature,Conditions}=weather;
     const tempColor = temperature>20 ?"red" : "blue";
     return(
         <div>
@@ -10,7 +10,7 @@ const WeatherDisplay=({weather})=>{
         
         <span style={{color:tempColor}}>Temperature: {temperature}</span>
        </p>
-       <p>{conditions}</p>
+       <p>Conditions: {Conditions}</p>
         </div>
     )
 }
